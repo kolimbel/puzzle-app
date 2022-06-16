@@ -1,0 +1,23 @@
+.chooseBoard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardElement {
+  width: 31.5vw;
+  padding-left: 0.8vw;
+  padding-bottom: 0.4vw;
+}
+
+.boardElementMiniature {
+  width: 100%;
+  //border-color: #888888 !important;
+  //border: 1px solid;
+}
+
+.title {
+  font-size: x-large;
+  margin: 2vh 2vw 2vw 2vw;
+}

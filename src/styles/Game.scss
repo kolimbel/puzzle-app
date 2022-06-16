@@ -1,0 +1,67 @@
+//#canvas{border:1px solid red;}
+
+.boardsBox {
+  @media(orientation: landscape) {
+    display:flex;
+    flex-direction: row;
+    }
+}
+
+.solvedBoard {
+  display: flex;
+  flex-wrap: wrap;
+  //padding: 2vw;
+  justify-content: center;
+  align-items:center;
+  padding: 5vw;
+  @media(orientation: landscape) {
+    max-width: 95vh;
+    min-width: 95vh;
+    max-height: 88vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+  }
+}
+
+.solvedPiece {
+  //padding-left: 1vw;
+  //padding-bottom: 1vw;
+  width: 24vw;
+  height: 18vw;
+  @media(orientation: landscape) {
+    width: 28.66vh;
+    height: 21.5vh;
+  }
+  border-color: #888888 !important;
+  border: 1px solid;
+}
+
+.solvedPiece > img {
+  width: 100%;
+}
+
+.piece {
+  margin-left: 0.5vw;
+
+  //padding-bottom: 1vw;
+  width: 23.5vw;
+  position: relative;
+  @media(orientation: landscape) {
+    width: 28.66vh;
+  }
+}
+
+.shuffledBoard  {
+  @media(orientation: landscape) {
+    padding-top: 1vh;
+
+  }
+}
+
+.finishText {
+  margin: 2vh 2vw 2vw 2vw;
+  text-align: center;
+  font-size: x-large;
+}
