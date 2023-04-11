@@ -20,4 +20,4 @@ To get a local copy of this project, follow these steps:
 
 ## Screenshots
 
-![Alt text](/screenshots/new-game.png?raw=true "Create new room") ![Alt text](/screenshots/game.png?raw=true "Sample game")
+![AltText](/screenshots/appPreview.gif "App preview") 
