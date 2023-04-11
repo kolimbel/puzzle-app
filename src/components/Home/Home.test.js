@@ -9,7 +9,7 @@ test("renders home component", () => {
       <Home />
     </Router>
   );
-  const linkElement = screen.getByText(/Wybierz planszę/i);
+  const linkElement = screen.getByText(/Select image/i);
   expect(linkElement).toBeInTheDocument();
 });
 

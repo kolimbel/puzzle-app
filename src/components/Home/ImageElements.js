@@ -64,6 +64,5 @@ export const ImageElements = [
     level: "",
     fileName: "pexels-oziel-gómez-849835-cropped.jpg",
     image: img9,
-    // id: 9,
   },
 ];
