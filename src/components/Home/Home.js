@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <>
-      <div className="title">Wybierz planszę</div>
+      <div className="title">Select image</div>
       <div className="chooseBoard" data-testid="chooseBoard">
         {ImageElements.map((item, index) => (
           <div className="boardElement" id={index} key={index}>

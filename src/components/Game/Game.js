@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/Game.scss";
-// import {splitImage} from "../../helpers/ImageSplitting"
 import { ImageElements } from "../Home/ImageElements";
-import { splitImage12 } from "../../helpers/imageUtils";
 
 function Game() {
   const [boardImage] = useState(() => {
